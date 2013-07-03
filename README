@@ -20,8 +20,22 @@ then change the "Current Contents" subsection below :)
 
 Current Contents
 ----------------
-Zip. Zilch. In fact, this is the only thing here. But that, dear reader,
-will soon change!
+|-Household
+  |- ChoreList
+  |  |-  ChoreList.aux
+  |  |   ChoreList.bbl
+  |  |   ChoreList.blg
+  |  |   ChoreList.txt
+  |  |   ChoreList.pdf
+  |  |   ChoreList.tex
+  
+  |- DinnerPlanner
+  |  |-  DinnerPlanner.aux
+  |  |   DinnerPlanner.bbl
+  |  |   DinnerPlanner.blg
+  |  |   DinnerPlanner.txt
+  |  |   DinnerPlanner.pdf
+  |  |   DinnerPlanner.tex
 
 
 Authors
