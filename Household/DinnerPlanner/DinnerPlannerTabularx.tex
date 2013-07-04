@@ -1,0 +1,45 @@
+% Author: 	Wanda Boyer (wbkboyer@gmail.com)
+% 					Ross Churchley (ross@rosschurchley.com)
+
+\documentclass[12pt]{article}
+
+\usepackage{amssymb}
+\usepackage{booktabs,tabularx}
+
+\newcommand{\meals}[3]{& #1 & \line(1,0){250} \\ 
+											 & #2 &\line(1,0){250} \\
+											 & #3 &\line(1,0){250} \\}
+
+\begin{document}
+
+\section*{Dinner Planner}
+
+\begin{tabularx}{\textwidth}{llc}
+	\toprule
+	Monday
+		\meals{Breakfast}{Lunch}{Dinner}
+	%
+	\midrule
+	Tuesday
+		\meals{Breakfast}{Lunch}{Dinner}
+	%
+	\midrule 
+	Wednesday
+		\meals{Breakfast}{Lunch}{Dinner}
+  \midrule
+	Thursday
+	 	\meals{Breakfast}{Lunch}{Dinner}
+  \midrule
+	Friday
+	 	\meals{Breakfast}{Lunch}{Dinner}
+	\midrule
+	Saturday
+	 	\meals{Breakfast}{Lunch}{Dinner}
+  \midrule
+	Sunday
+	 	\meals{Breakfast}{Lunch}{Dinner}
+  \bottomrule
+\end{tabularx}
+
+
+\end{document}
