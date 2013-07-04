@@ -1,34 +1,47 @@
-% Author: Wanda Boyer (wbkboyer@gmail.com)
+% Author: 	Wanda Boyer (wbkboyer@gmail.com)
+% 			Ross Churchley (ross@rosschurchley.com)
 
 \documentclass[12pt]{article}
+
 \usepackage{amssymb}
+\usepackage{booktabs,tabularx}
+
+\newcommand{\todo}[1]{& #1 & $\Box$ \\ }
+
 \begin{document}
 
-\section*{Chore List}
+\section*{Chores}
 
-\begin{tabular}{|c|l|r|}
-  \hline
-  Daily						& Dishes & $\Box$ \\
-									& Clean the counter-tops & $\Box$ \\ \cline{2-2}
-  \hline \hline
-	Weekly					& Plan meals \hspace*{45mm}& $\Box$ \\
-									& Grocery shopping & $\Box$ \\ \cline{2-2}
-  \hline \hline 
-	Semi-monthly		& Scrub bathroom sink & $\Box$ \\
-									& Clean bathroom mirrors & $\Box$ \\
-									& Take apart the stove and clean it thoroughly & $\Box$ \\
-									& Vacuum & $\Box$ \\ \cline{2-2}
-  \hline \hline
-	 Monthly				& Scrub the bathtub & $\Box$ \\
-									&	Wash the bathroom floors & $\Box$ \\
-									&	Wash the bathroom walls & $\Box$ \\
-									&	Wash the kitchen floors & $\Box$ \\
-									&	Wash the kitchen walls & $\Box$ \\ \cline{2-2}
-  \hline \hline
-	 Yearly					& Dispose of gnarly clothing (i.e. has holes)& $\Box$ \\
-									& Dispose of old papers & $\Box$ \\ \cline{2-2}
-  \hline
-\end{tabular}
+\begin{tabularx}{\textwidth}{lXm{1em}}
+	\toprule
+	Daily
+		\todo{ 		Dishes 											}
+		\todo{		Clean the counter-tops							}
+	%
+	\midrule
+	Weekly
+		\todo{ 		Plan meals										}
+		\todo{ 		Grocery shopping 								}
+	%
+	\midrule 
+	Semi-monthly
+		\todo{ 		Scrub bathroom sink 							}
+		\todo{ 		Clean bathroom mirrors 							}
+		\todo{ 		Take apart the stove and clean it thoroughly 	}
+		\todo{ 		Vacuum 											}
+  \midrule
+	 Monthly		
+	 	\todo{ 		Scrub the bathtub 								}
+		\todo{		Wash the bathroom floors 						}
+		\todo{		Wash the bathroom walls 						}
+		\todo{		Wash the kitchen floors 						}
+		\todo{		Wash the kitchen walls 							}
+  \midrule
+	 Yearly
+	 	\todo{		Dispose of gnarly clothing (i.e.\ has holes)	}
+		\todo{ 		Dispose of old papers 							}
+  \bottomrule
+\end{tabularx}
 
 
 \end{document}
