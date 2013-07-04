@@ -1,47 +1,32 @@
 % Author: Wanda Boyer (wbkboyer@gmail.com)
-
+%         Ross Churchley (ross@rosschurchley.com)
 
 \documentclass[12pt]{article}
+
+\usepackage{tabularx,booktabs}
+\usepackage{multirow}
+\pagestyle{empty}
+
+\newcommand{\dayofweek}[1]{\multirow{3}{*}{\textbf{#1}} \\ \\ \\ \midrule}
 
 \begin{document}
 
 \section*{Weekly Dinner Plan}
 
-\begin{tabular}{|c|l|}
-  \hline
-  Monday 	& Main: \hspace*{45mm}\\
-					& Salad: \\
-					& Dessert: \\ \cline{2-2}
-  \hline
-	Tuesday 	& Main: \hspace*{45mm}\\
-					& Salad: \\
-					& Dessert: \\ \cline{2-2}
-  \hline
-	 Wednesday 	& Main: \hspace*{45mm}\\
-					& Salad: \\
-					& Dessert: \\ \cline{2-2}
-  \hline
-	 Thursday 	& Main: \hspace*{45mm}\\
-					& Salad: \\
-					& Dessert: \\ \cline{2-2}
-  \hline
-	 Friday 	& Main: \hspace*{45mm}\\
-					& Salad: \\
-					& Dessert: \\ \cline{2-2}
-  \hline
-	 Saturday 	& Main: \hspace*{45mm}\\
-					& Salad: \\
-					& Dessert: \\ \cline{2-2}
-  \hline
-	 Sunday 	& Main: \hspace*{45mm}\\
-					& Salad: \\
-					& Dessert: \\ \cline{2-2}
-  \hline \hline
-  Extra treats for the week: & \\
-														& \\
-														& \\
-  \hline
-\end{tabular}
-
+\newcolumntype{C}{>{\centering\arraybackslash}X}
+\begin{tabularx}{\textwidth}{CCCC}
+	\toprule
+			& \textbf{Main} 	& \textbf{Salad} 	& \textbf{Dessert}\\
+	\midrule[\heavyrulewidth]
+	\dayofweek{Monday}
+	\dayofweek{Tuesday}
+	\dayofweek{Wednesday}
+	\dayofweek{Thursday}
+	\dayofweek{Friday}
+	\dayofweek{Saturday}
+	\dayofweek{Sunday}
+	\multirow{3}{*}{\textbf{Extra Treats}} \\ \\ \\
+	\bottomrule
+\end{tabularx}
 
 \end{document}
