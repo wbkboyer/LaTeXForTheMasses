@@ -22,18 +22,12 @@ Current Contents
 ----------------
 |-Household
   |- ChoreList
-  |  |-  ChoreList.aux
-  |  |   ChoreList.bbl
-  |  |   ChoreList.blg
-  |  |   ChoreList.txt
+  |  |-  ChoreList.txt
   |  |   ChoreList.pdf
   |  |   ChoreList.tex
   
   |- DinnerPlanner
-  |  |-  DinnerPlanner.aux
-  |  |   DinnerPlanner.bbl
-  |  |   DinnerPlanner.blg
-  |  |   DinnerPlanner.txt
+  |  |-  DinnerPlanner.txt
   |  |   DinnerPlanner.pdf
   |  |   DinnerPlanner.tex
 
@@ -41,6 +35,7 @@ Current Contents
 Authors
 -------
 Wanda B. Boyer (wbkboyer@gmail.com)
+Ross Churchley (ross@rosschurchley.com)
 
 (Please feel free to add your name and contact information here and to 
 push, to give credit where it's due! :))
