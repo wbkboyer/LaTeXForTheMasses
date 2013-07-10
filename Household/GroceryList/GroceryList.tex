@@ -1,0 +1,179 @@
+% Author: Chedo Barone (cabarone@uvic.ca)
+
+\documentclass[12pt]{article}
+
+
+% Packagelist
+\usepackage[top=2cm,left=2cm,right=2cm,bottom=2cm]{geometry} % margins
+\usepackage[usenames,dvipsnames]{xcolor}					 % color
+\usepackage{multicol}										 % columns env.
+	\setlength{\multicolsep}{0pt}
+\usepackage{paralist}										 % compact lists
+\usepackage{amssymb}										 % for \Box command
+
+
+%user-defined commands
+\newcommand{\Sep}{\vspace{1.5em}}
+\newcommand{\SmallSep}{\vspace{0.5em}}
+\newcommand{\StoreSection}[1]
+	{\Large\textbf{\color{Purple} #1}\par
+	\SmallSep\normalsize}
+
+\newcommand{\StoreItem}[1]
+	{\textbf{\color{RoyalBlue} #1}}
+
+
+\begin{document}
+\sffamily 
+
+\begin{center} \Large Shopping List \normalsize \end{center}
+
+
+\StoreSection{Bakery}
+
+\StoreItem{Breads}
+\begin{multicols}{4}
+\begin{compactitem}[\color{RoyalBlue}$\Box$]
+	\item White 
+	\item Whole-Wheat
+	\item Rye
+	\item Multigrain
+	\item Focaccia
+	\item Baguette
+	\item Bagels
+	\item Wraps 
+	\item Pita 
+	\item \underline{\hspace{3cm}}
+	\item \underline{\hspace{3cm}}
+\end{compactitem}
+\end{multicols}
+
+\StoreItem{Dessert}
+\begin{multicols}{4}
+\begin{compactitem}[\color{RoyalBlue}$\Box$]
+	\item Pie
+	\item Cake
+	\item Donuts
+	\item Cookies 
+	\item Eclair
+	\item Tarts 
+	\item \underline{\hspace{3cm}}
+	\item \underline{\hspace{3cm}}
+\end{compactitem}
+\end{multicols}
+
+
+\StoreSection{Produce}
+
+\StoreItem{Vegetables}
+\begin{multicols}{4}
+\begin{compactitem}[\color{RoyalBlue}$\Box$]
+	\item Onions
+	\item Garlic
+	\item Carrot
+	\item Celery 
+    \item Parsnip
+    \item Kale
+    \item Lettuce
+    \item Cabbage
+    \item Tomato
+    \item Potato
+    \item Peppers
+	\item \underline{\hspace{3cm}}
+	\item \underline{\hspace{3cm}}
+\end{compactitem}
+\end{multicols}
+
+
+\StoreItem{Fruits}
+\begin{multicols}{4}
+\begin{compactitem}[\color{RoyalBlue}$\Box$]
+	\item Apples
+	\item Oranges
+	\item Peach
+	\item Plum
+    \item Pears
+	\item \underline{\hspace{3cm}}
+	\item \underline{\hspace{3cm}}
+\end{compactitem}
+\end{multicols}
+
+\StoreSection{Canned and Dry Goods}
+
+\StoreItem{Canned Stuff}
+\begin{multicols}{4}
+\begin{compactitem}[\color{RoyalBlue}$\Box$]
+	\item Beans
+	\item Fruit
+	\item Pasta Sauce
+	\item Vegetables
+    \item Salmon
+    \item Tuna
+	\item \underline{\hspace{3cm}}
+	\item \underline{\hspace{3cm}}
+\end{compactitem}
+\end{multicols}
+
+\StoreItem{Dry Goods}
+\begin{multicols}{4}
+\begin{compactitem}[\color{RoyalBlue}$\Box$]
+	\item Pasta
+	\item Rice
+	\item Flour
+	\item Sugar
+    \item Oatmeal
+    \item Cereal
+	\item \underline{\hspace{3cm}}
+	\item \underline{\hspace{3cm}}
+\end{compactitem}
+\end{multicols}
+
+\StoreSection{Dairy}
+\begin{multicols}{4}
+\begin{compactitem}[\color{RoyalBlue}$\Box$]
+	\item Milk
+	\item Coffee Cream
+	\item Yogurt
+	\item Sour Cream
+    \item Cream Cheese
+    \item Cottage Cheese
+    \item Soft Cheese
+    \item Aged Cheese
+    \item Blue Cheese
+    \item Fake Cheese Slices
+	\item \underline{\hspace{3cm}}
+	\item \underline{\hspace{3cm}}
+\end{compactitem}
+\end{multicols}
+
+\StoreSection{Snacky Stuff}
+\begin{multicols}{4}
+\begin{compactitem}[\color{RoyalBlue}$\Box$]
+	\item Chips
+	\item Dip/Salsa
+	\item Chocolate
+	\item Popcorn
+    \item Granola Bars
+    \item Boxed Cookies
+    \item Nuts
+    \item \underline{\hspace{3cm}}
+	\item \underline{\hspace{3cm}}
+\end{compactitem}
+\end{multicols}
+
+
+\StoreSection{Frozen Stuff}
+\begin{multicols}{4}
+\begin{compactitem}[\color{RoyalBlue}$\Box$]
+	\item Pizza
+	\item Perogies
+	\item Ice Cream
+	\item Vegetables
+    \item Finger Food
+    \item \underline{\hspace{3cm}}
+	\item \underline{\hspace{3cm}}
+\end{compactitem}
+\end{multicols}
+
+
+\end{document}
